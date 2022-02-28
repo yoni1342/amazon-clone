@@ -6,7 +6,7 @@ import Banner from '../components/Banner'
 import ProductFeed from '../components/ProductFeed'
 function Home({ products }){
   return (
-    <div className="bg-gray-100 h-screen">
+    <div className="bg-gray-100 h-max">
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />

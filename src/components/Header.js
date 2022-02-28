@@ -3,7 +3,7 @@ import Image from 'next/image'
 import {SearchIcon, ShoppingCartIcon, MenuIcon} from '@heroicons/react/outline'
 function Header() {
   return (
-    <header>
+    <header className ='sticky'>
         {/* Top nav */}
         <div className = 'flex items-center bg-amazon_blue p-1 flex-grow py-2'>
             {/* Left heder Amazon image */}
